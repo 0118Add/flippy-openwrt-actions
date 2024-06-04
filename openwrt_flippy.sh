@@ -20,11 +20,11 @@
 #=============================== Set make environment variables ===============================
 #
 # Set the default package source download repository
-SCRIPT_REPO_URL_VALUE="https://github.com/unifreq/openwrt_packit"
+SCRIPT_REPO_URL_VALUE="https://github.com/0118Add/openwrt_packit"
 SCRIPT_REPO_BRANCH_VALUE="master"
 
 # Set the *rootfs.tar.gz package save name
-PACKAGE_FILE="openwrt-armvirt-64-generic-rootfs.tar.gz"
+PACKAGE_FILE=("openwrt-armvirt-64-generic-rootfs.tar.gz" "immortalwrt-armsr-armv8-generic-rootfs.tar.gz")
 
 # Set the list of supported device
 PACKAGE_OPENWRT=(
@@ -95,13 +95,13 @@ SCRIPT_QEMU_FILE="mk_qemu-aarch64_img.sh"
 SCRIPT_DIY_FILE="mk_diy.sh"
 
 # Set make.env related parameters
-WHOAMI_VALUE="flippy"
+WHOAMI_VALUE="BGG"
 OPENWRT_VER_VALUE="auto"
 SW_FLOWOFFLOAD_VALUE="1"
 HW_FLOWOFFLOAD_VALUE="0"
 SFE_FLOW_VALUE="1"
-ENABLE_WIFI_K504_VALUE="1"
-ENABLE_WIFI_K510_VALUE="1"
+ENABLE_WIFI_K504_VALUE="0"
+ENABLE_WIFI_K510_VALUE="0"
 DISTRIB_REVISION_VALUE="R$(date +%Y.%m.%d)"
 DISTRIB_DESCRIPTION_VALUE="OpenWrt"
 
