@@ -24,7 +24,7 @@ SCRIPT_REPO_URL_VALUE="https://github.com/unifreq/openwrt_packit"
 SCRIPT_REPO_BRANCH_VALUE="master"
 
 # Set the *rootfs.tar.gz package save name
-PACKAGE_FILE="openwrt-armsr-armv8-generic-rootfs.tar.gz"
+PACKAGE_FILE="openwrt-armsr-armv8-generic-rootfs.tar.gz" "immortalwrt-armsr-armv8-generic-rootfs.tar.gz"
 
 # Set the list of supported device
 PACKAGE_OPENWRT=(
@@ -99,7 +99,7 @@ SCRIPT_WATERMELONPI_FILE="mk_rk3568_watermelon-pi.sh"
 SCRIPT_ZCUBE1MAX_FILE="mk_rk3399_zcube1-max.sh"
 
 # Set make.env related parameters
-WHOAMI_VALUE="flippy"
+WHOAMI_VALUE="BGG"
 OPENWRT_VER_VALUE="auto"
 SW_FLOWOFFLOAD_VALUE="1"
 HW_FLOWOFFLOAD_VALUE="0"
